@@ -1,0 +1,29 @@
+section {
+  display: flex;
+  /*flex-direction: row;
+  flex-direction: row-reverse;
+  flex-direction: column;
+  flex-direction: column-reverse;
+  flex-wrap: wrap;*/
+  flex-flow: row wrap;
+}
+header {
+  background: purple;
+  height: 100px;
+}
+h1 {
+  text-align: center;
+  color: white;
+  line-height: 100px;
+  margin: 0;
+}
+article {
+  /*width: 200px;*/
+  padding: 10px;
+  margin: 10px;
+  background: aqua;
+  flex: 1 200px;
+}
+article:nth-of-type(3){
+  flex:2 200px;
+}

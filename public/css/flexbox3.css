@@ -1,0 +1,19 @@
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+.flex-container {
+  height: 100px;
+  border: 1px solid #ddd;
+}
+button {
+  padding: 10px 20px;
+}
+button:first-child {
+  order: 1;
+}
+button:last-child {
+  order: -1;
+}
